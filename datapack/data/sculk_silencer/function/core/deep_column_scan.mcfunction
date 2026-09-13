@@ -1,0 +1,19 @@
+function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-1 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-2 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-3 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-4 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-5 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-6 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-7 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-8 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-9 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-10 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-11 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-12 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-13 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-14 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-15 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-16 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-17 ~ run function sculk_silencer:core/check_sculk_sensor
+execute positioned ~ ~-18 ~ run function sculk_silencer:core/check_sculk_sensor

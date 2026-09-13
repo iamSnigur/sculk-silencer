@@ -1,0 +1,116 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_void"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:damage_resistant": {
+                            "types": "#minecraft:is_fire"
+                        }
+                    }
+                },
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:recipes": [
+                            "sculk_silencer:diamond_pickaxe_silenced_smithing",
+                            "sculk_silencer:diamond_axe_silenced_smithing",
+                            "sculk_silencer:diamond_hoe_silenced_smithing",
+                            "sculk_silencer:diamond_shovel_silenced_smithing",
+                            "sculk_silencer:netherite_pickaxe_silenced_smithing",
+                            "sculk_silencer:netherite_axe_silenced_smithing",
+                            "sculk_silencer:netherite_hoe_silenced_smithing",
+                            "sculk_silencer:netherite_shovel_silenced_smithing"
+                        ],
+                        "minecraft:custom_model_data": {"floats":[69]},
+                        "minecraft:rarity": "rare"
+                    }
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                        {
+                            "text": "Apply to any Diamond or",
+                            "italic": false
+                        },
+                        {
+                            "text": "Netherite Tool to make it Silent",
+                            "italic": false
+                        }
+                    ],
+                    "mode": "replace_all"
+                },
+                {
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "text": "",
+                        "extra": [
+                            {
+                                "text": "S",
+                                "color": "#56CFE1"
+                            },
+                            {
+                                "text": "i",
+                                "color": "#59BEDE"
+                            },
+                            {
+                                "text": "l",
+                                "color": "#5BADDA"
+                            },
+                            {
+                                "text": "e",
+                                "color": "#5E9BD7"
+                            },
+                            {
+                                "text": "n",
+                                "color": "#608AD3"
+                            },
+                            {
+                                "text": "c",
+                                "color": "#6379D0"
+                            },
+                            {
+                                "text": "e",
+                                "color": "#6568CD"
+                            },
+                            {
+                                "text": " "
+                            },
+                            {
+                                "text": "R",
+                                "color": "#6A45C6"
+                            },
+                            {
+                                "text": "e",
+                                "color": "#6D34C2"
+                            },
+                            {
+                                "text": "l",
+                                "color": "#6F23BF"
+                            },
+                            {
+                                "text": "i",
+                                "color": "#7211BB"
+                            },
+                            {
+                                "text": "c",
+                                "color": "#7400B8"
+                            }
+                        ],
+                        "italic": false
+                    },
+                    "target": "item_name"
+                }
+            ]
+        }
+    ]
+}

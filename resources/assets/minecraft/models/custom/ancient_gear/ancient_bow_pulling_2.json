@@ -1,0 +1,8 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "item/bow",
+	"textures": {
+		"layer0": "custom/ancient_gear/ancient_bow_pulling_2"
+	}
+}

@@ -1,0 +1,2 @@
+function sculk_silencer:core/reset_used_tools
+function sculk_silencer:core/silence_vibration_listeners

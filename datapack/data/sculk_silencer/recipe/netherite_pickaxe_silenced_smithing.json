@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": [
+    "minecraft:netherite_pickaxe"
+  ],
+  "addition": "minecraft:echo_shard",
+  "template": "minecraft:structure_void",
+  "result": {
+    "id": "minecraft:netherite_pickaxe",
+    "components": {
+      "minecraft:custom_data": {
+        "has_sculk_silencer": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "",
+          "bold": true,
+          "italic": false,
+          "extra": [
+            {
+              "text": "S",
+              "color": "#56CFE1"
+            },
+            {
+              "text": "i",
+              "color": "#58B9DD"
+            },
+            {
+              "text": "l",
+              "color": "#59A3D9"
+            },
+            {
+              "text": "e",
+              "color": "#5B8CD6"
+            },
+            {
+              "text": "n",
+              "color": "#5C76D2"
+            },
+            {
+              "text": "t",
+              "color": "#5E60CE"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "T",
+              "color": "#673AC5"
+            },
+            {
+              "text": "o",
+              "color": "#6B26C1"
+            },
+            {
+              "text": "o",
+              "color": "#7013BC"
+            },
+            {
+              "text": "l",
+              "color": "#7400B8"
+            }
+          ]
+        }
+      ]
+    },
+    "count": 1
+  }
+}

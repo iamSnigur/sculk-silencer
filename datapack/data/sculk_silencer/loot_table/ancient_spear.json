@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:equipment",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_spear"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_attributes",
+                    "modifiers": [
+                        {
+                            "attribute": "minecraft:attack_damage",
+                            "id": "base_attack_damage",
+                            "amount": 3,
+                            "operation": "add_value",
+                            "slot": "mainhand"
+                        },
+                        {
+                            "attribute": "minecraft:attack_speed",
+                            "id": "base_attack_speed",
+                            "amount": -3.05,
+                            "operation": "add_value",
+                            "slot": "mainhand"
+                        }
+                    ]
+                },
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:custom_name": {
+                            "text": "Ancient Spear",
+                            "italic": false
+                        },
+                        "minecraft:custom_model_data": {"floats":[69]},
+                        "minecraft:rarity": "rare",
+                        "minecraft:unbreakable": {}
+                    }
+                }
+            ]
+        }
+    ]
+}
