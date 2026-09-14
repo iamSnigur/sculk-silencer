@@ -9,9 +9,9 @@
                     "name": "minecraft:netherite_pickaxe"
                 }
             ],
-            "functions": [
+            "modifier": [
                 {
-                    "function": "minecraft:set_attributes",
+                    "type": "minecraft:set_attributes",
                     "modifiers": [
                         {
                             "attribute": "minecraft:attack_damage",
@@ -30,13 +30,17 @@
                     ]
                 },
                 {
-                    "function": "minecraft:set_components",
+                    "type": "minecraft:set_components",
                     "components": {
                         "minecraft:custom_name": {
                             "text": "Ancient Pickaxe",
                             "italic": false
                         },
-                        "minecraft:custom_model_data": {"floats":[69]},
+                        "minecraft:custom_model_data": {
+                            "floats": [
+                                69
+                            ]
+                        },
                         "minecraft:rarity": "rare",
                         "minecraft:unbreakable": {}
                     }

@@ -9,23 +9,25 @@
                     "name": "minecraft:bow"
                 }
             ],
-            "functions": [
-                {
-                    "function": "minecraft:set_components",
-                    "components": {
-                        "minecraft:custom_name": {
-                            "text": "Ancient Bow",
-                            "italic": false
-                        },
-                        "minecraft:custom_model_data": {"floats":[69]},
-                        "minecraft:rarity": "rare",
-                        "minecraft:unbreakable": {},
-                        "minecraft:damage_resistant": {
-                            "types": "#minecraft:is_fire"
-                        }
+            "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                    "minecraft:custom_name": {
+                        "text": "Ancient Bow",
+                        "italic": false
+                    },
+                    "minecraft:custom_model_data": {
+                        "floats": [
+                            69
+                        ]
+                    },
+                    "minecraft:rarity": "rare",
+                    "minecraft:unbreakable": {},
+                    "minecraft:damage_resistant": {
+                        "types": "#minecraft:is_fire"
                     }
                 }
-            ]
+            }
         }
     ]
 }

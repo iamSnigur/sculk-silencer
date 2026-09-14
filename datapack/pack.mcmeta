@@ -1,7 +1,7 @@
 {
   "pack": {
-    "description": "Enhance raids on Ancient Cities",
-    "min_format": 88,
-    "max_format": 101
+    "description": "Sculk Silencer Datapack",
+    "min_format": 121,
+    "max_format": 2147483647
   }
 }

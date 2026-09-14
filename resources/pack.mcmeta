@@ -3,6 +3,6 @@
   {
     "description":"Sculk Silencer Resourcepack",
     "min_format":69,
-    "max_format":84   
+    "max_format":2147483647   
   }
 }

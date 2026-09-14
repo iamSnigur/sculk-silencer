@@ -9,9 +9,9 @@
                     "name": "minecraft:structure_void"
                 }
             ],
-            "functions": [
+            "modifier": [
                 {
-                    "function": "minecraft:set_components",
+                    "type": "minecraft:set_components",
                     "components": {
                         "minecraft:damage_resistant": {
                             "types": "#minecraft:is_fire"
@@ -19,7 +19,7 @@
                     }
                 },
                 {
-                    "function": "minecraft:set_components",
+                    "type": "minecraft:set_components",
                     "components": {
                         "minecraft:recipes": [
                             "sculk_silencer:diamond_pickaxe_silenced_smithing",
@@ -31,12 +31,16 @@
                             "sculk_silencer:netherite_hoe_silenced_smithing",
                             "sculk_silencer:netherite_shovel_silenced_smithing"
                         ],
-                        "minecraft:custom_model_data": {"floats":[69]},
+                        "minecraft:custom_model_data": {
+                            "floats": [
+                                69
+                            ]
+                        },
                         "minecraft:rarity": "rare"
                     }
                 },
                 {
-                    "function": "minecraft:set_lore",
+                    "type": "minecraft:set_lore",
                     "lore": [
                         {
                             "text": "Apply to any Diamond or",
@@ -50,7 +54,7 @@
                     "mode": "replace_all"
                 },
                 {
-                    "function": "minecraft:set_name",
+                    "type": "minecraft:set_name",
                     "name": {
                         "text": "",
                         "extra": [
